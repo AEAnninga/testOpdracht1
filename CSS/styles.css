@@ -1,0 +1,144 @@
+@font-face {
+    font-family: SpecialElite-Regular;
+    src: url(SpecialElite-Regular.ttf);
+}
+
+body {
+    font-family: SpecialElite-Regular;
+    background-color:rgba(102, 153, 204, 0.068);
+    background-image: url("../images/cello_kodaly.jpg");            
+}
+
+main{
+    margin-left: 10px;
+}
+
+header {
+    border-width: 0.25em;
+    border-color: rgba(102, 153, 204, 0.342);
+    border-style: dashed;
+    border-radius: 1em;    
+    margin-bottom: 0.25em;
+    padding: 0.25em;
+    text-align: center;
+}
+
+p.intro {
+    color:rgb(55, 78, 105);
+    text-shadow:3px 20px 3px rgba(102, 153, 204, 0.39);
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0 auto;
+}
+
+h1, h4, p, li, a {
+
+    color:rgb(55, 78, 105);
+}
+
+a {
+    text-decoration: none;    
+}
+
+
+.border {    
+    border-style: solid;
+    border-bottom-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;    
+    border-color: #69C #69C rgba(102, 153, 204, 0.651) rgba(255, 255, 255, 0);
+    border-width: 0 3em 7.25em 3em;
+    width: 0em;
+    margin: -0.25em 0 0 0;
+    padding: 0;
+    float: left;
+    clear: left;
+}
+
+
+.plaatje {
+    border-style:double;
+    border-color: #69C;
+    border-width: 0.3em;
+    width: 300px;
+}
+
+.logo {
+    width:75px;    
+}
+
+ .logobeer {
+    width:30px;
+    margin-left: 20px;
+
+ }   
+
+ .inline {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;    
+    background-color: rgb(153, 190, 226);
+    border-radius: 1em;
+    overflow: hidden;    
+    position: sticky;
+    top: 0;                      
+}
+
+.center {
+    text-align: center;
+    font-weight: bold;
+    padding: 1em;       
+    position: sticky;
+    bottom: 0px;
+    z-index: -1;
+}
+
+.content {
+    background: url("../images/cello_kodaly.jpg");
+    background-color: rgb(223, 237, 250);
+    padding: 2em;
+    box-shadow: 0 0 0.5em #69C;
+    margin-top: 1em;
+}
+
+ul.inline li {
+    display: inline-block;
+    margin-left: -5px;
+    border-right: 1px solid rgba(102, 153, 204, 0.226);        
+}
+
+
+
+li a {
+    padding: 40px 30px;    
+    text-align: center;
+    display: block;    
+}
+
+li a.active{
+    background-color: rgba(102, 153, 204, 0.651);
+    color: white;    
+}
+
+
+li a:hover:not(.active) {
+    background-color: rgba(102, 153, 204, 0.651);
+    color: white;
+}
+
+li.right {
+    float: right;
+}
+
+li:last-child {
+    border-right: none;
+    border-left: 1px solid rgba(102, 153, 204, 0.226);
+}
+
+
+
+
+
+
+
+
+
